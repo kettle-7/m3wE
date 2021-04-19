@@ -1,0 +1,25 @@
+
+john = false;
+sarah = "a \n string with \"escape\t\v\r\f sequences\".";
+don = 69;
+joe = -4.5 + 9 * 2 ^ 2;
+
+while true {
+    if john {
+        print(john)
+    };
+    
+    if sarah {
+        print ( sarah )
+    }
+    else if don {
+        print[don]
+    }
+    else {
+        print [joe]
+    };
+};
+
+for (i = 0, i > 5, i = i + 1) {
+    print(i)
+}
